@@ -7,11 +7,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 section {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    padding: 100px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,18 +86,23 @@ header .navigation li a {
 .content .textBox h2 {
     color: #fff;
     font-size: 3em;
-    margin-bottom: 10px;
+    margin-bottom: -45px;
     line-height: 1.4em;
     font-weight: 700;
+    /* padding: 30px; */
+    margin-left: 70px;
 }
 
 .content .textBox p {
     color: #fff;
+    margin-top: 60px;
+    margin-left: 70px;
 }
 
 .content .textBox a {
     display: inline-block;
     margin-top: 20px;
+    margin-left: 70px;
     padding: 8px 20px;
     background: #e51e2a;
     color: #fff;
@@ -101,7 +114,7 @@ header .navigation li a {
 
 .sci {
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     left: 100px;
     display: flex;
     justify-content: center;
@@ -136,7 +149,7 @@ header .navigation li a {
 }
 
 .swiper-container {
-    width: 100%;
+    width: 620px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -145,7 +158,7 @@ header .navigation li a {
     background-position: center;
     background-size: cover;
     width: 180px;
-    height: 500px;
+    height: 460px;
     display: flex;
     justify-content: center;
 }
@@ -166,7 +179,11 @@ header .navigation li a {
     max-height: 100%;
 }
 
-.swiper-container-3d .swiper-slide-shadow-left,
-.swiper-container-3d .swiper-slide-shadow-right {
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
     background-image: none;
-} 
+}
+
+.swiper-3d {
+    perspective: 400px;
+}
