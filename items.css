@@ -1,0 +1,10 @@
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #161616;
+}
