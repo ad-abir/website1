@@ -23,7 +23,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #161616;
+    background: #328700;
 }
 
 section .circle {
@@ -32,7 +32,7 @@ section .circle {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #e51e2a;
+    background: #ffff00;
     clip-path: circle(70% at right -20%);
 }
 
@@ -49,7 +49,8 @@ header {
 
 header .logo {
     position: relative;
-    max-width: 150px;
+    width: 90px;
+    height: 60px;
 }
 
 header .navigation {
@@ -63,7 +64,7 @@ header .navigation li {
 
 header .navigation li a {
     display: inline-block;
-    color: #fff;
+    color: #000;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
@@ -84,7 +85,7 @@ header .navigation li a {
 }
 
 .content .textBox h2 {
-    color: #fff;
+    color: #000;
     font-size: 3em;
     margin-bottom: -45px;
     line-height: 1.4em;
@@ -94,7 +95,7 @@ header .navigation li a {
 }
 
 .content .textBox p {
-    color: #fff;
+    color: #000;
     margin-top: 60px;
     margin-left: 70px;
 }
@@ -104,12 +105,13 @@ header .navigation li a {
     margin-top: 20px;
     margin-left: 70px;
     padding: 8px 20px;
-    background: #e51e2a;
-    color: #fff;
+    background: #ffff00;
+    color: black;
     border-radius: 40px;
     font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
+    border: 1px solid black;
 }
 
 .sci {
@@ -128,7 +130,7 @@ header .navigation li a {
 .sci li a {
     display: inline-block;
     margin-left: 15px;
-    background: #222;
+    background: #05510a;
     width: 50px;
     height: 50px;
     display: flex;
@@ -136,10 +138,11 @@ header .navigation li a {
     align-items: center;
     border-radius: 50%;
     transition: 0.2s ease-in-out;
+    border: 1px solid black;
 }
 
 .sci li a:hover {
-    background: #e51e2a;
+    background: #dbdb24;
     transform: translateY(-10px);
 }
 
