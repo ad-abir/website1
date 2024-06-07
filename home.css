@@ -92,6 +92,7 @@ header .navigation li a {
     font-weight: 700;
     /* padding: 30px; */
     margin-left: 70px;
+    -webkit-text-stroke: 2px white;
 }
 
 .content .textBox p {
