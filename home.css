@@ -112,6 +112,11 @@ header .navigation li a {
     letter-spacing: 1px;
     text-decoration: none;
     border: 1px solid black;
+    transition: 0.5s;
+}
+
+.content .textBox a:hover {
+    transform: scale(1.1);
 }
 
 .sci {
@@ -142,8 +147,9 @@ header .navigation li a {
 }
 
 .sci li a:hover {
-    background: #dbdb24;
+    background: #ff0000;
     transform: translateY(-10px);
+    box-shadow: 0 0 10px yellow;
 }
 
 .sci li a img {
