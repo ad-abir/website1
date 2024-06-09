@@ -69,3 +69,29 @@ header .navigation li a {
     text-decoration: none;
     margin-left: 40px;
 }
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.row {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.row h2 {
+    margin-top: 0;
+}
+
+.row p {
+    margin-bottom: 0;
+}
