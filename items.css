@@ -69,3 +69,17 @@ header .navigation li a {
     text-decoration: none;
     margin-left: 40px;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2 rem;
+}
+
+.container .title {
+    font-size: 3.5rem;
+    color: #444;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
